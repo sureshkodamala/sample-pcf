@@ -1,0 +1,9 @@
+---
+applications:
+- name: sample-pcf-2
+  memory: 768M
+  instances: 1
+  random-route: false
+  path: target\sample-pcf-1.jar
+  buildpacks:
+  - https://github.com/cloudfoundry/java-buildpack.git
